@@ -1,0 +1,59 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAnimacion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ver Animación"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintMarginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnVideo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ver Video"
+        app:layout_constraintTop_toBottomOf="@id/btnAnimacion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintMarginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnConductores"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Conductores Destacados"
+        app:layout_constraintTop_toBottomOf="@id/btnVideo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintMarginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnCamara"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Capturar Foto"
+        app:layout_constraintTop_toBottomOf="@id/btnConductores"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintMarginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnGrafico"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ver Gráfico de Viajes"
+        app:layout_constraintTop_toBottomOf="@id/btnCamara"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintMarginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
